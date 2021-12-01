@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // 目标语言的版本
+    "useDefineForClassFields": true,
+    "module": "esnext", // 指定生成代码的模板标准
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true, // 生成目标文件的sourceMap文件
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "paths": {
+      // 根据别名配置路径
+      "@/*": ["src/*"],
+      "@api/*": ["src/api/*"],
+      "@components/*":  ["src/components/*"],
+      "@style/*":  ["src/style/*"],
+      "@utils/*":  ["src/utils/*"],
+      "@store/*":  ["src/store/*"],
+      "@assets/*":  ["src/assets/*"],
+      "@constants/*":  ["src/constants/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

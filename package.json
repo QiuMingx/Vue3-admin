@@ -1,0 +1,45 @@
+{
+  "name": "hauto-static-mgr4.0",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev vite ",
+    "stg": "cross-env NODE_ENV=stg vite ",
+    "gamma": "cross-env NODE_ENV=gamma vite",
+    "prod": "cross-env NODE_ENV=prod vite",
+    "build": "cross-env NODE_ENV=prod vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "axios": "^0.24.0",
+    "base64-js": "^1.5.1",
+    "core-js": "^3.6.5",
+    "element-plus": "^1.2.0-beta.3",
+    "file-saver": "^2.0.5",
+    "gm-crypt": "^0.0.2",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.2.1",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.16",
+    "vue-axios": "^3.4.0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "less": "^4.1.2",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vite-plugin-svg-icons": "^1.0.5",
+    "vue-tsc": "^0.3.0"
+  }
+}
